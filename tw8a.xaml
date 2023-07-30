@@ -1,0 +1,150 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="tw8a" VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="860.8,1560" sap2010:WorkflowViewState.IdRef="tw8a_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Testing.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Primitives</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>NPOI</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="tw8a" sap:VirtualizedContainerService.HintSize="545.6,1495.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Browser Chrome: Wikipedia" sap:VirtualizedContainerService.HintSize="483.2,1383.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="54fcfe2a-f6c4-46ab-8032-bb395e11e969" Version="V2">
+      <uix:NApplicationCard.Body>
+        <ActivityAction x:TypeArguments="x:Object">
+          <ActivityAction.Argument>
+            <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+          </ActivityAction.Argument>
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="449.6,1166.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:String" Name="url" />
+              <Variable x:TypeArguments="x:String" Name="scrap" />
+            </Sequence.Variables>
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="Input Dialog" sap:VirtualizedContainerService.HintSize="387.2,241.6" sap2010:WorkflowViewState.IdRef="InputDialog_1" IsPassword="False" Label="Enter the url" Title="Input">
+              <ui:InputDialog.Result>
+                <OutArgument x:TypeArguments="x:String">[url]</OutArgument>
+              </ui:InputDialog.Result>
+            </ui:InputDialog>
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'EN'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="387.2,218.4" sap2010:WorkflowViewState.IdRef="NTypeInto_1" InteractionMode="HardwareEvents" ScopeIdentifier="54fcfe2a-f6c4-46ab-8032-bb395e11e969" Text="[&quot;uipath&quot;+ &quot;[k(Enter)][k(Enter)]&quot;]" Version="V3">
+              <uix:NTypeInto.Target>
+                <uix:TargetAnchorable BrowserURL="https://www.wikipedia.org/" CvElementArea="677, 727, 493, 56" CvTextArea="1103, 750, 21, 13" CvTextArgument="EN" CvType="InputBox" DesignTimeRectangle="677, 726, 493, 56" DesignTimeScaleFactor="1.25" ElementType="InputBox" FriendlyName="'EN'" Guid="bd73c97a-595f-4502-8f58-c999ac4dacb1" InformativeScreenshot="948f76f7a634035c812892a685f19763.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Wikipedia' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArgument="EN" CvType="Text" DesignTimeRectangle="1104, 749, 21, 13" ElementType="Text" FriendlyName="'EN'" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NTypeInto.Target>
+            </uix:NTypeInto>
+            <uix:NGetText DisplayName="Get Text 'UiPath'" sap:VirtualizedContainerService.HintSize="387.2,157.6" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="54fcfe2a-f6c4-46ab-8032-bb395e11e969" TextString="[scrap]" Version="V3">
+              <uix:NGetText.Target>
+                <uix:TargetAnchorable BrowserURL="https://en.wikipedia.org/wiki/UiPath" DesignTimeRectangle="429, 409, 1200, 140" DesignTimeScaleFactor="1.25" ElementType="Text" FriendlyName="'UiPath is'" FullSelectorArgument="&lt;webctrl idx='2' tag='P' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' tag='P' class='' aaname=' is a global  company that makes  (RPA) software. It was founded in , Romania, by  and Marius Tîrcă. Its headquarters are in . The company&amp;apos;s software monitors user activity to automate repetitive front and back office tasks, including those performed using other business software such as  or  (ERP) software. ' /&gt;" Guid="d82477f7-5261-482c-9d66-893ac12cfdc9" InformativeScreenshot="63477917a6b0711eb1f030bb815118a3.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='UiPath - Wikipedia' /&gt;" SearchSteps="FuzzySelector" Version="V2" Visibility="Interactive">
+                  <uix:TargetAnchorable.Anchors>
+                    <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                      <uix:Target CvTextArgument="UiPath" CvType="Text" DesignTimeRectangle="429, 264, 111, 41" ElementType="Text" FriendlyName="'UiPath'" FullSelectorArgument="&lt;webctrl parentid='firstHeading' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='firstHeading' tag='SPAN' type='' class='mw-page-title-main' aaname='UiPath' check:innerText='UiPath' /&gt;" ImageBase64="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" SearchSteps="FuzzySelector, Image, CV" />
+                    </scg:List>
+                  </uix:TargetAnchorable.Anchors>
+                </uix:TargetAnchorable>
+              </uix:NGetText.Target>
+            </uix:NGetText>
+            <ui:WriteTextFile File="{x:Null}" DisplayName="Write Text File" FileName="output.txt" sap:VirtualizedContainerService.HintSize="387.2,134.4" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[scrap]" />
+            <ui:SelectFile SelectedFile="{x:Null}" DisplayName="Browse For File" Filter="Text|*.txt" sap:VirtualizedContainerService.HintSize="387.2,139.2" sap2010:WorkflowViewState.IdRef="SelectFile_1" />
+          </Sequence>
+        </ActivityAction>
+      </uix:NApplicationCard.Body>
+      <uix:NApplicationCard.TargetApp>
+        <uix:TargetApp Area="-9, -9, 1938, 1038" BrowserType="Chrome" IconBase64="iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAADsSURBVDhPpZMBDYQwDEVBBRIQgQKkIGEG5gALGMAGBjCAjO3yxv2lg+XChSU/t3bt7++/0OiEEOI/+Ladp1bwBK+ahfcE27bFYRiQE+d5TslxHHN8HEd6B9yXZYld16Wafd9PBTy0bRvXdU0ExH3fF4TkuAPIdM8rUGQfNAlS732RFzHIBKyCbH6VQwVQDBhk48JEHm3BNE1JhWLInXM5BgUBcvECc4ghgwDZxBBaL0BBAJDMFMjYlf3J0QjBtf5GwDRUaBX9Qxhs/RFuBADZ1mkmX80TqgTywOK6u8DnUCV5gtSsUyv4hbOraT5zNVPvKCo8XgAAAABJRU5ErkJggg==" InformativeScreenshot="a1973a186ecd2b29513985c54afd1863.jpg" Selector="&lt;html app='chrome.exe' title='Wikipedia' /&gt;" Title="RPA-UiPath-Scheme of evaluation-NEW - Google Docs" Url="https://www.wikipedia.org/" />
+      </uix:NApplicationCard.TargetApp>
+    </uix:NApplicationCard>
+  </Sequence>
+</Activity>
